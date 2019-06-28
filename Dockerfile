@@ -9,4 +9,4 @@ COPY /sample-html /usr/share/nginx/html
 EXPOSE 80
 ## init command when container started
 #CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
-###
+
